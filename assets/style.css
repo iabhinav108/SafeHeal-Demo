@@ -1,0 +1,173 @@
+/* SafeHeal - Main Styling */
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+}
+
+/* Header Styling */
+.main-header {
+    color: #2980b9;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 2.5rem;
+}
+
+.sub-header {
+    color: #3498db;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* Description Box */
+.description {
+    background-color: #ffffff;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Button Styling */
+.stButton > button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+/* Radio Button Styling */
+.stRadio > div {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* File Uploader Styling */
+.stFileUploader > div > div {
+    background-color: #ffffff;
+    border: 2px dashed #3498db;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Success Message Styling */
+.element-container div[data-testid="stAlert"] {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Image Display Area */
+.stImage {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+.stImage img {
+    border-radius: 8px;
+}
+
+/* Camera Input Styling */
+.stCamera > div {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer Styling */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    padding: 20px 0;
+    border-top: 1px solid #ecf0f1;
+}
+
+/* Analysis Results Section */
+.results-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.result-header {
+    color: #2980b9;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+.metric-container {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+.metric-label {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.metric-value {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Recommendations Section */
+.recommendation-container {
+    background-color: #e8f4fc;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.recommendation-title {
+    color: #2980b9;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-header {
+        font-size: 2rem;
+    }
+    
+    .sub-header {
+        font-size: 1rem;
+    }
+}
