@@ -106,3 +106,4 @@ def settings():
 
     if st.button("Save Settings"):
         st.success("Settings saved successfully!")
+

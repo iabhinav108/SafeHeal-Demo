@@ -87,6 +87,7 @@ if media_type == "Image":
             st.error(f"Error processing image: {e}")
             st.session_state.image_input = None
 
+
 st.markdown(
     "<div class='footer'>SafeHeal v1.0 — Empowering Advanced Wound Care with AI</div>",
     unsafe_allow_html=True

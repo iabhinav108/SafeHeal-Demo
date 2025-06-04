@@ -22,3 +22,4 @@ elif page == "Settings":
     routes.settings()
 
 st.markdown("<div class='footer'>SafeHeal v1.0 — Developed with ❤️ for Healthcare AI</div>", unsafe_allow_html=True)
+
