@@ -7,10 +7,6 @@ SafeHeal is an innovative application that leverages computer vision and artific
 - **Wound Segmentation**: Accurately identify and outline wound boundaries
 - **Wound Classification**: Automatically classify wounds by type (venous ulcer, pressure ulcer, etc.)
 - **Measurement Analysis**: Calculate wound area, perimeter, and other metrics
-- **Healing Stage Identification**: Determine the current healing stage of the wound
-- **LLM-Powered Recommendations**: Generate evidence-based assessment and treatment recommendations
-- **Progress Tracking**: Monitor wound healing progress over time
-- **Report Generation**: Create comprehensive reports for documentation
 
 ## Project Structure
 
@@ -28,8 +24,6 @@ SAFEHEAL-DEMO/
 │   ├── __pycache__/
 │   ├── gradcam.py        # Grad-CAM visualization for model explainability
 │   ├── inference.py      # Model inference code
-│   ├── llm_service.py    # LLM integration for recommendations
-│   ├── report_generator.py # Report generation utilities
 │   └── utils.py          # Utility functions
 ├── data/
 │   ├── uploads/          # Storage for uploaded images
@@ -41,6 +35,21 @@ SAFEHEAL-DEMO/
 ├── README.md
 └── requirements.txt
 ```
+
+
+## Results
+
+SafeHeal delivers accurate wound segmentation, classification, and explainability using Grad-CAM. Below are sample outputs from the system:
+
+### 🔍 Original Image vs Segmentation
+
+![Segmented](assets/results/segmented1.png)
+
+### 🧠 Classification and Grad-CAM Visualization
+
+![GradCAM](gradcam_results\gradcam_49_0_surgical.png)
+
+> 📌 These results showcase SafeHeal’s ability to identify wound boundaries, predict wound type, and highlight important visual regions influencing model decisions.
 
 ## Installation
 
