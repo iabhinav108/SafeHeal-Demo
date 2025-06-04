@@ -43,11 +43,11 @@ SafeHeal delivers accurate wound segmentation, classification, and explainabilit
 
 ### 🔍 Original Image vs Segmentation
 
-![Segmented](assets/results/segmented1.png)
+![Segmented](../segmentation and classification results/segmentation_gradcam_result.png)
 
 ### 🧠 Classification and Grad-CAM Visualization
 
-![GradCAM](gradcam_results\gradcam_49_0_surgical.png)
+![GradCAM](../gradcam_results/gradcam_49_0_surgical.png)
 
 > 📌 These results showcase SafeHeal’s ability to identify wound boundaries, predict wound type, and highlight important visual regions influencing model decisions.
 
